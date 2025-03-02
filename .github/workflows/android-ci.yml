@@ -36,5 +36,4 @@ jobs:
         with:
           name: app-debug
           path: app/build/outputs/apk/debug/app-debug.apk
-      - name: Grant execute permission to Gradle
-      - run: chmod +x ./gradlew
+
