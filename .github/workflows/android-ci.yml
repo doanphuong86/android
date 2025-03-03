@@ -27,6 +27,7 @@ jobs:
 
       - name: Build project
         run: ./gradlew assembleDebug
+        working-directory: android
 
       - name: Run unit tests
         run: ./gradlew test
